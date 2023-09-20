@@ -1,1 +1,1 @@
-# syncronize
+# synchronize
