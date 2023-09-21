@@ -19,4 +19,7 @@ jobs:
       - run: go version
       - uses: actions/checkout@v3
       - uses: ko-build/setup-ko@v0.6
+      - run: go version
+      - run: go env
+      - run: ko version
       - run: ko build --platform=linux/amd64,linux/arm64
