@@ -1,6 +1,6 @@
 module github.com/robinschneider/synchronize
 
-go 1.21.0
+go 1.21
 
 require (
 	github.com/google/go-containerregistry v0.16.1
